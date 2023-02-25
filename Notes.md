@@ -71,3 +71,25 @@
 #### • So that making them `Re-usable`
 
 #### • different components like `nav`, `button`,`a` tags so all are same across all the pages
+
+<br/>
+
+### 3) Unidirectional Data Flow
+
+#### • React runs on 2 main things: `state`,`components`
+
+#### • depending on the state and components `react` creates `VirtualDOM`
+
+#### • `VirtualDOM` is the copy of the original DOM(HTML Code) in JS so it can compare what has changed and update the data.
+
+#### • This means `data` can be only changed when ther `state changes`.
+
+### 4) UI, The rest is up to you.
+
+#### • `Angular` is a `framework`, `React` is .a `Library`.
+
+#### • if you are a chef Angular gives you oven, stove, utensils etc...
+
+#### •React gives you stove and the rest is up to you you can do the other things yourself or match with other frameworks libraries do what works for you.
+
+#### • because of this you can do (React Native, React 360, React desktop, React Blest)

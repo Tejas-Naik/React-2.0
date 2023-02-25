@@ -93,3 +93,13 @@
 #### •React gives you stove and the rest is up to you you can do the other things yourself or match with other frameworks libraries do what works for you.
 
 #### • because of this you can do (React Native, React 360, React desktop, React Blest)
+
+<br/>
+
+### • Job of a React Developer
+
+#### - Decide on `Components.
+
+#### - Decide the `state` and where it lives.
+
+#### - `What` changes when `state` changes.

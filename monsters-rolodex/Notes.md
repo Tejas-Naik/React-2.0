@@ -13,3 +13,7 @@
 ### setState(run(what to change), callback(what to do with the change))
 
 #### setState will update the state object with the new one
+
+#### if you want to render something from the API/object/array you can use map() to loop over the array and create elements
+
+#### you should add key{unique id} attribute to HTML elements

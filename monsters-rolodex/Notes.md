@@ -10,6 +10,6 @@
 
 #### App.js is the code for the app that is being rendered by the index.js
 
-### setState()
+### setState(run(what to change), callback(what to do with the change))
 
 #### setState will update the state object with the new one

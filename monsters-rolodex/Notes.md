@@ -17,3 +17,17 @@
 #### if you want to render something from the API/object/array you can use map() to loop over the array and create elements
 
 #### you should add key{unique id} attribute to HTML elements
+
+<br/>
+
+### Non-SPA = Single Page Application
+
+#### ztm.io => request HTML/CSS/JS files from the server
+
+#### ztm.io/react => request again for the new HTML/CSS/JS files
+
+### SPA = Single Page Application
+
+#### ztm.io => request for HTML CSS JS Files
+
+#### ztm.io/react => makes up its own HTML CSS Files based on the react code

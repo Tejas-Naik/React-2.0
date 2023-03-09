@@ -26,6 +26,7 @@ class App extends Component {
   }
 
   render() {
+    console.log('render from AppJS');
     const { monsters, searchFeild } = this.state;
     const { onSearchChange } = this;
 
@@ -41,12 +42,7 @@ class App extends Component {
           placeholder='Search Monsters...'
           onChange={onSearchChange}
         />
-        {/* {filteredMonsters.map((monster, id) => (
-          <div key={id}>
-            <h1>{monster.name}</h1>
-          </div>
-        ))} */}
-        <CardList name="Tejas" monsters={filteredMonsters} />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }

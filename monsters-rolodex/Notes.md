@@ -31,3 +31,11 @@
 #### ztm.io => request for HTML CSS JS Files
 
 #### ztm.io/react => makes up its own HTML CSS Files based on the react code
+
+### Re-Rendering in React
+
+#### - on initialization
+
+#### - on state change
+
+#### - on props change

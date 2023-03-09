@@ -10,12 +10,9 @@ class App extends Component {
       monsters: [],
       searchFeild: '',
     };
-
-    console.log('constructor()');
   }
 
   componentDidMount() {
-    console.log('componentDidMount()');
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(users => {
@@ -32,7 +29,6 @@ class App extends Component {
     const { monsters, searchFeild } = this.state;
     const { onSearchChange } = this;
 
-    console.log('render()');
     const filteredMonsters = monsters.filter(monster =>
       monster.name.toLowerCase().includes(searchFeild)
     );

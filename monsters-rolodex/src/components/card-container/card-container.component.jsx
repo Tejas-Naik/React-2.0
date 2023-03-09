@@ -3,7 +3,7 @@ import './card-container.styles.css';
 
 class CardContainer extends Component {
     render() {
-        const { username, email, id } = this.props;
+        const { username, email, id } = this.props.monster;
         return (
             <div className="card-container" key={id}>
                 <img alt={`monster ${username}`} src={`https://robohash.org/${id}?set=set2&size=180x180`} />

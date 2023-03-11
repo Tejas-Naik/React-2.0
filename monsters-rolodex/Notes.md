@@ -39,3 +39,11 @@
 #### - on state change
 
 #### - on props change
+
+### Rendering / Re-Rendering
+
+### Mounting DOM happens when `constructor` runs -> `renders` runs and `react render the actual DOM` -> `componentDidMount()` can be called.
+
+### Updating DOM happens when `New props`, `setState()`, `forceUpdate()` runs ->`renders`runs and `react render the actual DOM` -> `componentDidUpdate()` can be called.
+
+### Unmounting happens when there is no use of a certain component `componentWillMount()` can be called.

@@ -42,8 +42,22 @@
 
 ### Rendering / Re-Rendering
 
-### Mounting DOM happens when `constructor` runs -> `renders` runs and `react render the actual DOM` -> `componentDidMount()` can be called.
+#### Mounting DOM happens when `constructor` runs -> `renders` runs and `react render the actual DOM` -> `componentDidMount()` can be called.
 
-### Updating DOM happens when `New props`, `setState()`, `forceUpdate()` runs ->`renders`runs and `react render the actual DOM` -> `componentDidUpdate()` can be called.
+#### Updating DOM happens when `New props`, `setState()`, `forceUpdate()` runs ->`renders`runs and `react render the actual DOM` -> `componentDidUpdate()` can be called.
 
-### Unmounting happens when there is no use of a certain component `componentWillMount()` can be called.
+#### Unmounting happens when there is no use of a certain component `componentWillMount()` can be called.
+
+### Pure function, unpure functions and side effects
+
+#### Pure functions should return the same output for the same inputs no matter how many times it runs
+
+#### `purefunc = (a, b) => a + b;`=> this will always return same output for same inputs
+
+#### Impure functions rely on variables outside of the function.
+
+#### `const c = 1`
+
+#### `impurefunc = (a, b) => a + b + c;`=> this may change the output depending on the var `c`
+
+#### if a function changes the value of any variable outside its scope its called `side effect`.

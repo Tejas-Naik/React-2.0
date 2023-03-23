@@ -1,4 +1,4 @@
-import { Component, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import CardList from './components/card-list/card-list.component';
 import SearchBox from './components/search-box/search-box.component';
@@ -8,11 +8,12 @@ const App = () => {
   const [monsters, setMonsters] = useState([]);
 
   console.log('render');
-  fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(users => setMonsters(users));
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(users => setMonsters(users));
 
-  console.log(monsters);
+  }, []);
 
 
   const onSearchChange = (event) => {
